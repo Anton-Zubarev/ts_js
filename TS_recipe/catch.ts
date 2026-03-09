@@ -1,3 +1,9 @@
+/*
+https://github.com/supermacro/neverthrow
+neverthrow развивает эту тему 
+*/
+
+
 function wait(duration: number) {
   return new Promise((resolve) => setTimeout(resolve, duration));
 }
