@@ -21,8 +21,8 @@ function class2() {
   }
 
   //flatMap
-  function getTreeValues2(node) {
-    return node.flatMap((item) => {
+  function getTreeValues2(nodeArray) {
+    return nodeArray.flatMap((item) => {
       const { children, ...nodeWithoutChildren } = item;
       return [
         nodeWithoutChildren.value,
